@@ -1,9 +1,13 @@
 @charset "utf-8";
 
 body{
-    background-color: #040919;
+    background-color: #200000;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
 }
 
 .icon_mark{
@@ -25,9 +29,9 @@ body{
     border: none;
     border-radius: 15px;
     background: linear-gradient(to top,
-     rgb(0, 0, 0) 4%,
-     #181E30 4%,
-     #99B1FF 92%);
+    #0e0101 4%,
+    #650f0f 4%,
+    #ff6868 92%);
     cursor: pointer;
     margin: 0 auto;
     margin-bottom: 30px;
@@ -50,19 +54,45 @@ body{
     transition: width 0.6s, height 0.6s;
 }
 
-.pe{
-    background-color:white; 
+.quadrado:not(:hover){
+    width: 35%;
+    height: 70px;
+    padding: 10px 20px;
+    transition: width 0.6s, height 0.6s;
+}
+
+.pe {
+    background-color: white; 
     color: black;
-    height: 50px; 
-    width:100%; 
+    height: auto;
+    width: 100%; 
     font-size: 15px; 
     font-weight: bold; 
     text-align: center;
-    padding-bottom: 5px;
-    padding: 10px 0px;
+    padding: 10px 0;
 }
 
 .icon_buttom{
     height: 55px;
     width: 55px;
 }
+
+.caixa {
+    width: 15px;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        width: 35%;
+        margin: 0% 31%;
+    }
+
+    .icons_contact{
+        width: 75px;
+    }
